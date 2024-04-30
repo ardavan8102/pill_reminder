@@ -1,11 +1,8 @@
-class allImages {
-  allImages._();
+class Images {
+  Images._();
 
-  // -- App Logos
-  static const String darkAppLogo = "assets/logos/bg-black-logo.png";
-  static const String lightAppLogo = "assets/logos/bg-white-logo.png";
-
-  // -- Social Logos
-  static const String google = "assets/icons/insta_logo";
-  static const String instagram = "assets/icons/google_logo";
+  // -- Navbar Icons
+  static const String pillsIcon = 'assets/icons/pills.png';
+  static const String homeIcon = 'assets/icons/home.png';
+  static const String settingsIcon = 'assets/icons/settings.png';
 }

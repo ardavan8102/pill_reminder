@@ -8,6 +8,8 @@ class myColors {
   static const Color secondary = Color(0xFFFFE248);
   static const Color accent = Color(0xFFb0c7ff);
 
+  static const Color lightWhiteBlue = Color.fromARGB(255, 230, 234, 252);
+
   // Gradient Colors
   static const Gradient linearGradient = LinearGradient(
     begin: Alignment(0.0, 0.0),
@@ -56,5 +58,6 @@ class myColors {
   static const Color softGrey = Color(0xFFF4F4F4);
   static const Color lightGrey = Color(0xFFF9F9F9);
   static const Color white = Color(0xFFFFFFFFF);
+  
 
 }
