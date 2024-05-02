@@ -45,3 +45,7 @@ flutter:
     - family: light
       fonts:
         - asset: assets/fonts/light.ttf
+
+    - family: yekan
+      fonts:
+        - asset: assets/fonts/yekan.ttf

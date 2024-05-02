@@ -22,11 +22,11 @@ class _NavigationMenuState extends State<NavigationMenu> {
 
     PageController _controller = new PageController();
 
-    int _selectedTab = 1;
+    int _selectedTab = 0;
 
     List<Widget> _screens = [
-      PillsPage(),
       HomePage(),
+      PillsPage(),
       SettingsPage(),
     ];
 
@@ -40,7 +40,6 @@ class _NavigationMenuState extends State<NavigationMenu> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: dark ? myColors.dark : myColors.primaryBackground,
         bottomNavigationBar: CurvedNavigationBar(
           index: _selectedTab,
           backgroundColor: dark ? myColors.dark : myColors.primaryBackground,
@@ -49,13 +48,13 @@ class _NavigationMenuState extends State<NavigationMenu> {
           onTap: (index) => _onTabChange(index),
           items: [
             Image.asset(
-              Images.pillsIcon,
+              Images.homeIcon,
               height: 30,
               width: 30,
             ),
 
             Image.asset(
-              Images.homeIcon,
+              Images.pillsIcon,
               height: 30,
               width: 30,
             ),

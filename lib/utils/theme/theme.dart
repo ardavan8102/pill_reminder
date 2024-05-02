@@ -16,7 +16,7 @@ class myAppTheme {
   // Light Theme
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
-    fontFamily: 'med',
+    fontFamily: 'yekan',
     brightness: Brightness.light,
     primaryColor: myColors.primary,
     scaffoldBackgroundColor: myColors.white,
@@ -33,7 +33,7 @@ class myAppTheme {
   // Dark Theme
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
-    fontFamily: 'med',
+    fontFamily: 'yekan',
     brightness: Brightness.dark,
     primaryColor: myColors.primary,
     scaffoldBackgroundColor: Colors.black,
