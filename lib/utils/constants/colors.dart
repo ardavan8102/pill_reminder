@@ -12,12 +12,12 @@ class myColors {
 
   // Gradient Colors
   static const Gradient linearGradient = LinearGradient(
-    begin: Alignment(0.0, 0.0),
-    end: Alignment(0.707, -0.707),
+    // begin: Alignment(0.0, 0.0),
+    // end: Alignment(0.707, -0.707),
     colors: [
-      Color(0xffff9a9e),
-      Color(0xfffad0c4),
-      Color(0xfffad0c4),
+      Colors.greenAccent,
+      Color.fromARGB(255, 121, 190, 255),
+      Color.fromARGB(255, 112, 96, 255),
     ],
   );
 

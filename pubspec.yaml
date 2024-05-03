@@ -49,3 +49,7 @@ flutter:
     - family: yekan
       fonts:
         - asset: assets/fonts/yekan.ttf
+
+    - family: sans
+      fonts:
+        - asset: assets/fonts/sans.ttf
